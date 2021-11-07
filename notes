@@ -1,0 +1,30 @@
+- how big should Lambda_0 be? someone must have tried to estimate this
+- code vol and dvol
+- determine how det(g) depends on K based on how we choose g
+- Denef-Douglas relates classic problems to BP. Any lit on good MDP's that solve
+  these problems that can be mapped onto BP?
+- since BP and the Arkani-Hamed et al model are both NP complete, it means that
+  (assuming P != NP) we will not be able to solve it in polynomial time
+- look up literature on optimal solutions to NP-complete problems with
+       deep reinforcement learning.
+
+IDEA 1:
+- in some sense the question is how to have an algorithm that lowers the base
+     of the exponential as much as possible.
+- if O(b^N), then log_10(b^N) ~ some log identity. this should allow me to read
+     off b in some way based on the slope of a best fit line. one would love to
+     have an RL agent that finds a way to minimize b, where each value of b
+     requires its own RL agent.
+
+IDEA 2:
+- we should DEMONSTRATE the exponential growth that is expected for this
+  NP-complete problem.
+- we should compare this to the expoential growth associated with the random
+  walk.
+
+New reward structure? This is effectively a maze: we are taking steps and we
+  want to get somewhere, and get there as quickly as possible.
+  - second thought: this doesn't work, because the goal is to find A solution,
+    not find a solution as quickly as possible. the second we have a useful update
+    due to end of game by getting out of the maze, we've actually already solved
+    our real problem.x

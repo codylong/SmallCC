@@ -1,0 +1,18 @@
+#!/bin/bash
+QUEUE=long #short, long, bigmem
+PROCESSES=16 #max: 16 on one node
+RAM=0.7 #GB
+RTESTIMATE="\"1 week\""
+STEPS=30000000
+CEXPATH=/users/ruehle/SmallCC/wishart
+OUTFILE=$CEXPATH/workdir/cc_MCTS.out #File containing programs stdout
+OUTDIR=$CEXPATH/output/ #File where program output is written to
+ENV=cc-eig-and-bump-MCTS-v0  #name of environment
+GAMMA=0.999
+NMOD=10
+EPS=.005
+SIGMA=.001
+
+echo addqueue -q $QUEUE -n 1x8 -s -m $RAM -c $RTESTIMATE -o $OUTFILE /usr/local/shared/python/2.7.6-gcc/bin/python $CEXPATH/train_a3c_gym_MCTS.py $PROCESSES --steps $STEPS --outdir $OUTDIR --env $ENV --gamma $GAMMA --nmod $NMOD --eps $EPS --sigma $SIGMA
+
+eval addqueue -q $QUEUE -n 1x8 -s -m $RAM -c $RTESTIMATE -o $OUTFILE /usr/local/shared/python/2.7.6-gcc/bin/python $CEXPATH/train_a3c_gym_MCTS.py $PROCESSES --steps $STEPS --outdir $OUTDIR --env $ENV --gamma $GAMMA --nmod $NMOD --eps $EPS --sigma $SIGMA

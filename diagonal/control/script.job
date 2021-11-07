@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=run1
+#SBATCH --output=run1.out
+#SBATCH --error=run1.err
+#SBATCH --exclusive
+#SBATCH --partition=ser-par-10g-4
+#SBATCH -N 1
+#SBATCH --workdir=/home/jhhalverson/cccontrol/workdir
+cd /home/jhhalverson/cccontrol
+mpirun -prot -srun -n 32 python cc_longjump_mpi.py 10 1e-10 100

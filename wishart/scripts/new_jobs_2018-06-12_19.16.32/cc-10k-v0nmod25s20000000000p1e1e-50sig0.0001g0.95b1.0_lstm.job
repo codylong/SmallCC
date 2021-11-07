@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=cc-10k-v0nmod25s20000000000p1e1e-50sig0.0001g0.95b1.0_lstm
+#SBATCH --output=cc-10k-v0nmod25s20000000000p1e1e-50sig0.0001g0.95b1.0_lstm.out
+#SBATCH --error=cc-10k-v0nmod25s20000000000p1e1e-50sig0.0001g0.95b1.0_lstm.err
+#SBATCH --exclusive
+#SBATCH --partition=ser-par-10g-5
+#SBATCH -N 1
+#SBATCH --workdir=/home/jhhalverson/wishart/workdir
+cd /home/jhhalverson/wishart/
+mpirun -prot -srun -n 1 python train_a3c_gym.py 32 --steps 20000000000 --eval-interval 2000000 --env cc-10k-v0 --outdir /gss_gpfs_scratch/codylong/wishart/output_cc_prec --gamma 0.95 --eps 1e-50 --nmod 25 --sigma 0.0001 --beta 1.0 --reward-d-pow 1 --load /home/jhhalverson/wishart/output_cc_prec/20180611T170045.616500/44023893 --arch LSTMFR

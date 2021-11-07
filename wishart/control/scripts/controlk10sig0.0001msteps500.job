@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=controlk10sig0.0001msteps500
+#SBATCH --output=controlk10sig0.0001msteps500.out
+#SBATCH --error=controlk10sig0.0001msteps500.err
+#SBATCH --exclusive
+#SBATCH --partition=ser-par-10g-3
+#SBATCH -N 1
+#SBATCH --workdir=/home/codylong/wishart/control/workdir
+cd /home/codylong/wishart/control/
+mpirun -prot -srun -n 1 python ControlClasses.py 500 grid 10 1e-50 0.0001

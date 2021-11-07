@@ -1,0 +1,644 @@
+commit e3dbb5eba0a3c71f28236c50fc2cb880f2e239fd
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Thu Jun 21 13:39:37 2018 -0400
+
+    new rounding game implemented
+
+commit b27e771b48e6527b1e0e38d2d1091a81a379ad44
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Tue Jun 12 12:10:44 2018 -0400
+
+    updates made to analysis
+
+commit c887f452fac9f3ab2ed00f697bc1da2af9bb7177
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Mon Jun 11 10:47:34 2018 -0400
+
+    hacks applied to analyze.py to keep training nmod = 250, and only look at continued runs
+
+commit 5c6efeff9ff8f44416f81ecc0d3005ab3503d096
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Sat Jun 9 22:45:26 2018 -0400
+
+    fixed analysis code to properly chain together experiments
+
+commit 849978c8f56a9b88a85174fab93cf031a54bf55a
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri Jun 8 16:43:04 2018 -0400
+
+    Updated gen_cc.py
+
+commit 84e482c7ea54a429cf8c107aabc839ec8898d727
+Merge: 7b75a88 c57718a
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri Jun 8 16:32:49 2018 -0400
+
+    Merge branch 'master' of https://github.com/stringdata/SmallCC
+
+commit 7b75a88ebccc9d9382faf6bfecf3514bc6246f4e
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri Jun 8 16:32:33 2018 -0400
+
+    Analysis work right before Jim leaves town.
+
+commit c57718aab2cce7d19fc7c8edcc98f5f03fa27460
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Fri Jun 8 11:09:00 2018 -0400
+
+    removed print statement in reward function
+
+commit c9cc0f286f8010b7487a4ecddb42b1b088966bac
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri Jun 8 09:58:07 2018 -0400
+
+    Analysis work and submitfolder.py.
+
+commit 578a881362f55a8776f8ba0fc1e11b0dd5e62d41
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Thu Jun 7 15:26:02 2018 -0400
+
+    First set of second runs running, equiv class changes.
+
+commit 5e57cd4eb228cd4f85a47ad12b313febaa793de4
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Thu Jun 7 10:44:47 2018 -0400
+
+    Changed control to random only and output in real time.
+
+commit 170e069ff0aa5e54fc5393ce849635cf2d481980
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Thu Jun 7 09:48:15 2018 -0400
+
+    updated control exps
+
+commit d930213c2464cfce76192823afda08d1607812a7
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed Jun 6 16:20:56 2018 -0400
+
+    Worked on analysis.py and pulled new gen_cc.py from new discovery run.
+
+commit 09a8379e6adc6c35c9cbb19f9740cfcc5505b7c4
+Merge: 7c35f41 c348665
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Wed Jun 6 11:41:43 2018 -0400
+
+    Merge branch 'master' of https://github.com/stringdata/SmallCC
+    
+    "somthing"
+
+commit 7c35f4120fd08df6bbeafa13f572ad866264055a
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Wed Jun 6 11:41:00 2018 -0400
+
+    updated control experiments to load metrics and run on discovery
+
+commit c348665cbdc397fb6ead8629077c0b67d091ea2f
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed Jun 6 09:17:23 2018 -0400
+
+    Removed Cody's discovery directory from commit.
+
+commit 5ca958570b912f414dc1fa73b9f22394c0cd919e
+Merge: b585ccd 88b580d
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed Jun 6 09:16:27 2018 -0400
+
+    Merge branch 'master' of https://github.com/stringdata/SmallCC
+
+commit b585ccd40c94bbf1b38003793c7867a525a2c34d
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed Jun 6 09:16:15 2018 -0400
+
+    Small analysis changes.
+
+commit 88b580d192c3241d54c608eab7cbbafaa40ab07f
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Tue Jun 5 14:35:50 2018 -0400
+
+    analysis.py can now import the mpmath metrics. small string manipulations for working with mcts output
+
+commit ff368c485677d8c40d988398e964b805969e8804
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Mon Jun 4 22:24:17 2018 -0400
+
+    updates to cc_MCTS.py and updated gen_cc_mcts.py for june 4th runs
+
+commit 026c34db429d09e6100c775a67b3a214247a1974
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon Jun 4 17:04:32 2018 -0400
+
+    Code running on discovery after sign bugfix.
+
+commit 92901643bdb229ef38c12644e42b061d8bb25baa
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon Jun 4 12:16:28 2018 -0400
+
+    Commented out cc sanity check.
+
+commit fda6006464b127b6e432789a41c1143a2382021a
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon Jun 4 11:39:56 2018 -0400
+
+    CC bug fix, related to sign.
+
+commit 79992874635a908fe7eb17826b39dd630c2123d4
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sun Jun 3 08:05:03 2018 -0400
+
+    Appended gen_cc, worked on analysis.
+
+commit ca8c6c863374bbace2fc482eba59bc5bfce314a1
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sat Jun 2 09:52:35 2018 -0400
+
+    Updated gen_cc.py based on evening June 1 runs.
+
+commit cd5937d2b9311324c5aeaa5d3bdf3c123feea329
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri Jun 1 21:17:35 2018 -0400
+
+    Done reward converted from mpf to float.
+
+commit 22bd81c5775b164ca1e256a7233f6460dd7f20f3
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri Jun 1 19:21:35 2018 -0400
+
+    Control MPI implementation.
+
+commit 383241009f0eab98b6ce408144ef81eda04b518a
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri Jun 1 09:32:38 2018 -0400
+
+    Pushing Jim's metrics.
+
+commit 44a61bb55c6ea2969d62af755424532c2fdf5917
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Thu May 31 22:08:31 2018 -0400
+
+    updated cc.py and cc_MCTS.py for accuracy. Switched self.sigma, sign (in step function), and all constants in random metric generation to mpf
+
+commit 7c569e06490cfeb19043f2194772651b0fa84b55
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Thu May 31 21:45:05 2018 -0400
+
+    changed self.eps to mpf(self.eps) in both cc.py and cc_MCTS.py
+
+commit 06fd5ea45c15a005e8758fc3d5073b5f5c1afe5b
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Thu May 31 19:56:56 2018 -0400
+
+    updated cc_MCTS.py for high precision. TO BE TESTED. changed reward function in cc.py for high precision
+
+commit 834eea6371bbe291b1148b0c63e2b3f4677675b8
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Thu May 31 19:56:17 2018 -0400
+
+    updated cc_MCTS.py for high precision. TO BE TESTED. changed reward function in cc.py for high precision
+
+commit 7c383dd75380b5d08b309e4c976d2a28219344a7
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Thu May 31 18:11:18 2018 -0400
+
+    changed from np.float in float in box size
+
+commit 0d0bfa6c331f0085436b4e9d4618b86556c04e7d
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Thu May 31 18:02:35 2018 -0400
+
+    changed the box boundaries to floats in cc.py
+
+commit d4a152f30861e19a787c5984c743dd93c9bb9009
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Thu May 31 16:32:40 2018 -0400
+
+    Debugged precision codes, edited gen_cc.py after discussion.
+
+commit 66eaf150752dbd98f48f80f874c0c6ce6ca265f0
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Thu May 31 15:10:37 2018 -0400
+
+    high precision cc.py implemented
+
+commit 7eb1b882e0d7bcc79f8942789974fb9ce52e746c
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed May 30 18:00:57 2018 -0400
+
+    More analysis work
+
+commit c5f40873a213e0201f9354c0a7786a8204410958
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 29 14:00:10 2018 -0400
+
+    Working on analysis.py
+
+commit fc2c2cc69c7ec761c6d28bf9eb2912bb4a9516d4
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Tue May 29 08:30:19 2018 -0400
+
+    moved files into wishart dir
+
+commit 37f2456f98ac7a5c9f0d631615462c4a1978b079
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Mon May 28 19:49:41 2018 -0400
+
+    added continue_experiment.py, which continutes training a neural net from where the last experiment left off. added gen_continue, which generates scripts to do this, similar to gen_cc.py. continue_experiment.py has been tested on discovery, gen_continue has not yet.
+
+commit 6a9646de5302812efdcf5a3348378c5d23000450
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon May 28 16:22:39 2018 -0400
+
+    MCTS running on discovery.
+
+commit 8219070fa474d60c6ccf55f39fa65bc3ec2d5ca7
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri May 25 09:43:25 2018 -0400
+
+    Removed unnecessary output folder.
+
+commit b392e81d9d68715da37414467b847272c57c005b
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri May 25 09:42:38 2018 -0400
+
+    Updated WishartExperiments.
+
+commit 6c860ed3a90086e543882c1721ba055c238066a3
+Author: ruehlef <fabian.ruehle@physics.ox.ac.uk>
+Date:   Fri May 25 01:01:19 2018 +0100
+
+    minor changes
+
+commit a372a03bd9d5cfc11cfe7f6a7f6466ccdbaf8f71
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Thu May 24 16:37:57 2018 -0400
+
+    Argmax to argmin. Ask us, Fabian.
+
+commit 25b29cb45c75ae954e7cc21861d90a06ce95e5ae
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Thu May 24 15:34:39 2018 -0400
+
+    Added reward power flag.
+
+commit 3f50544b3a326245081ace1308aa7f987b085e99
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Thu May 24 15:26:52 2018 -0400
+
+    Changed cc.py obs space, pulled new gen_cc from discovery, restarting runs.
+
+commit d451bfe25232e0551bc46afd7da92aaa63ccadd5
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Thu May 24 14:23:16 2018 -0400
+
+    Fix, hopefully.
+
+commit 9e1097de6f2dc68564a37485d710d9fe32fbb760
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Thu May 24 12:57:46 2018 -0400
+
+    testing this merge
+
+commit 1696df31df133ae257260cadb4ca3b8d21ecd63b
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed May 23 18:22:21 2018 -0400
+
+    Jim's untidy code from the day we learned about beta.
+
+commit b6dfa45b4ff6e9d0b3b1a06b2bd7f30e1ad1469c
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed May 23 18:19:47 2018 -0400
+
+    Jim's untidy code from the day we learned about beta.
+
+commit 8171f32a137e0a7db5e3ec4b01134125271054f8
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed May 23 18:19:33 2018 -0400
+
+    Jim's untidy code from the day we learned about beta.
+
+commit 9f2d282e7dfab610b9553ca62899b01620b943e9
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 22 16:41:10 2018 -0400
+
+    Bug hunting. Reward 0 not random walk!
+
+commit 7387ff602ed7df4bb44cfd42dabef3b9e9fe08e4
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 22 08:55:12 2018 -0400
+
+    Sanity check plots in draft.
+
+commit c060d905942f51da57eae1d87d28f21c887bd97b
+Author: ruehlef <fabian.ruehle@physics.ox.ac.uk>
+Date:   Mon May 21 11:25:58 2018 +0100
+
+    MCTS Analysis Excel File added
+
+commit 1e1059cd466d27c09e4fe36f878130b6afc26dc6
+Author: ruehlef <fabian.ruehle@physics.ox.ac.uk>
+Date:   Mon May 21 11:25:24 2018 +0100
+
+    MCTS updates
+
+commit a7644bd75f59b0c8b74e1fd465c0d22ec7237174
+Author: ruehlef <fabian.ruehle@physics.ox.ac.uk>
+Date:   Wed May 16 16:54:49 2018 +0100
+
+    small fix
+
+commit d4939d9cb46af0711d3aa9811d41e291a4c80488
+Author: ruehlef <fabian.ruehle@physics.ox.ac.uk>
+Date:   Wed May 16 15:12:10 2018 +0100
+
+    included python include fix in train_a3c_gym_MCTS.py
+
+commit 4d6c2cb72379bf0820e3de70fef28131086dbbe6
+Author: ruehlef <fabian.ruehle@physics.ox.ac.uk>
+Date:   Wed May 16 14:28:19 2018 +0100
+
+    cluster job script added
+
+commit 0ebaabd365b2179efb46de91f29a43b01fc275ec
+Author: ruehlef <fabian.ruehle@physics.ox.ac.uk>
+Date:   Wed May 16 14:26:50 2018 +0100
+
+    note.txt added
+
+commit d5d49031ffdd59590fca145018e3fe4f93730c16
+Author: ruehlef <fabian.ruehle@physics.ox.ac.uk>
+Date:   Wed May 16 14:06:55 2018 +0100
+
+    Added Tree search
+    
+    Created corresponding files in wishart
+    Modified chainerrl core routines
+
+commit 06ca2ae191df122274ab0389a1fae5377cfaafad
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 15 21:45:41 2018 -0400
+
+    Updated cc_eig_and_bump for length 1 (in cc) steps.
+
+commit 85b96dd5cbf065e2d31490249533de861dbf0b2e
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 15 17:25:41 2018 -0400
+
+    Added analysis of jump_1 eigenvectors.
+
+commit 57eeea9c765b07aa6cde2b8cd80e10dce6881391
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon May 14 14:41:20 2018 -0400
+
+    Updated analysis.py.
+
+commit 5aa7add20e366bf7cfcda3bf155fda1eb1886175
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon May 14 14:39:36 2018 -0400
+
+    Updated analysis.py.
+
+commit 55056405edd9909b0b3bd3b3b0bb51f6b6d17fba
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon May 14 14:22:02 2018 -0400
+
+    Updated analysis.py.
+
+commit f383f6fdfd0464778c4abdc66ff7f339cb3e29fd
+Merge: db6f950 1e2b7f0
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon May 14 14:21:13 2018 -0400
+
+    Merge branch 'master' of https://github.com/stringdata/SmallCC
+
+commit db6f95075b9b9c7d74d63a721555e8f760f499e1
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon May 14 14:21:01 2018 -0400
+
+    Updated analysis.py.
+
+commit 1e2b7f0cf2336796af47784ad63bf8f3f5aa9e42
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Mon May 14 11:53:20 2018 -0400
+
+    implemented cc_eig_non_origin_start. instead of starting from the origin, we move out along the smallest eigenvalue until we reach the desired cc, and round to the nearest latticep point. we start the search from this point as our new initial point
+
+commit 1ecd4f9a0ef729dc34bf49ba351c15d7f1517780
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Mon May 14 10:05:38 2018 -0400
+
+    fixed bug in dvol computation, dvol function located in cc_eig_and_bump.py
+
+commit 0ab09993d65289c5cd2480051369b32091335466
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Mon May 14 09:57:51 2018 -0400
+
+    defined a dvol function in gen_cc_eig.py
+
+commit 8cc3bf841ddc4f7070f5c7400c8f1e8fdf45c60d
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sun May 13 22:13:16 2018 -0400
+
+    detgcheck.py
+
+commit ec77b864a1416846bdaf8159eea4c9a793c83c2d
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sun May 13 21:20:03 2018 -0400
+
+    Added some notes in a wishart README.
+
+commit b958ae583832635dc6fdd8f7450bf1b9a5a32ced
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Sun May 13 19:10:10 2018 -0400
+
+    fixed minor bug that threw errors when the metrics eigenvectors were calculated for the first time
+
+commit 1ca05b047309d6929f22a431d7d5cc866576b66b
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Sat May 12 20:14:30 2018 -0400
+
+    added different max_step options for eig_and_bump. set up cc_eig_and_bump.py for first systematic scan
+
+commit 9067b7f511219df3de085b5a2afc38bb34484434
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sat May 12 16:54:08 2018 -0400
+
+    Added LSTM support in gen_cc and train_a3c_gym.
+
+commit 95f76a671855ed09ea6abc927d614006720ba480
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sat May 12 10:27:45 2018 -0400
+
+    Added cc 200k, 500k, 1m step envs.
+
+commit ffb7c08ae2dda09d2303f08c971df9068f66efd5
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sat May 12 09:08:57 2018 -0400
+
+    Possible global_t bugfix.
+
+commit b67c7cc3164674cc806bc5807b6169967bac15b2
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sat May 12 08:13:19 2018 -0400
+
+    Possible global_t bugfix.
+
+commit 438c4408fe5183b38bc966c546705ead1896d067
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sat May 12 07:42:43 2018 -0400
+
+    Script gens now env dependent. Output dirs named accordingly.
+
+commit d78346832da34adcf04c02b47ef0442cc78a92e3
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sat May 12 07:34:18 2018 -0400
+
+    Add sig-dep metrics to cc.py.
+
+commit b959b8b79ec32e4d33b833eb7f452910c2b30471
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Sat May 12 07:08:54 2018 -0400
+
+    Added start to analysis scripts for Wishart experiments.
+
+commit 16ad1113f1b6043301421becaa4aceda4360ad17
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Fri May 11 21:55:02 2018 -0400
+
+    metrics are now labeled with sigma
+
+commit 4fad23f9236b62a37a450478e6a60e7cae9bdc7a
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Fri May 11 21:22:54 2018 -0400
+
+    added working implementation of eigenvector bump, still needs corrected metric output and input (new metrics are not yet generated even if sigma changes, for fixed nmod)
+
+commit bc85bb766ae91c542d2d70c1bb46d6977702cd90
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri May 11 15:28:28 2018 -0400
+
+    Eig and bump! Huzzah.
+
+commit f56714c089f1df9046d2d9846bab80a28d30c2ba
+Author: Cody Long <cody@Codys-MacBook-Pro.local>
+Date:   Fri May 11 11:25:17 2018 -0400
+
+    added line in scriptgen to make switching between users quick
+
+commit 62a1338914fffcdfe378b733607009db2e78aa8a
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Fri May 11 10:59:21 2018 -0400
+
+    Got sigthresh working and implemented in scriptgen.py so smart-ish sigmas are passed.
+
+commit d6383992cb0e31c2f33a88023b58ed3c0fc6db75
+Author: Cody Long <cody@codys-mbp.lan>
+Date:   Thu May 10 22:44:12 2018 -0400
+
+    fixed error of +1 in factorial in sigthresh.py, and converted to floats
+
+commit 8c990226d9691c1f8bb22b3c56618a6a3299bb65
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Thu May 10 15:58:56 2018 -0400
+
+    Print state for positive wishart, start wishart notebook and test.
+
+commit 8e6c001b280f77f82c4ec4f3fa09e64e109148c2
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed May 9 17:11:11 2018 -0400
+
+    Removed max_neg output, too big.
+
+commit 19a9125faf261b6837a5c657133e8a360a135f46
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed May 9 15:00:17 2018 -0400
+
+    First wishart on discovery. What a doozy.
+
+commit b0b4082cc9fb30c63391c95c5c813fa7f3bb1e57
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 8 16:28:28 2018 -0400
+
+    Worked on wishart cc.py.
+
+commit c6261234dc4bc77b13e034a8c3bb0c1457cd8cf7
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 8 16:04:17 2018 -0400
+
+    Fixed wishart structure.
+
+commit 03e1fa6c37567eb24eb4b99e2db6c581af061bce
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 8 16:03:17 2018 -0400
+
+    Revert.
+
+commit b6b7721e0775314601bf137146e25a369b5ca688
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 8 15:56:51 2018 -0400
+
+    Removed superfluous init_codes.
+
+commit 534e07552673d16662d9ebf4c94ce4b6ec3cdb5c
+Author: jimhalverson <j.halverson@northeastern.edu>
+Date:   Tue May 8 15:55:16 2018 -0400
+
+    Update README.md
+
+commit b8d9b10fd97e218e6c8ae932dd4e45d60f6d27a4
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Tue May 8 15:01:38 2018 -0400
+
+    Removed diagonal because it is P. Copied init_codes to wishart with no changes.
+
+commit b92622b6f4d15d2adf0dfbc1c75521f60212331f
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon Apr 16 14:44:05 2018 -0400
+
+    Update diagonal.
+
+commit 5b9395e630e1ffa6ae1fa303cb67e12a1a1ba062
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon Apr 16 14:38:45 2018 -0400
+
+    Commit diagonal, test on discovery.
+
+commit 9756129af6a2dada91857471364fd714e2de4347
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon Apr 16 12:02:19 2018 -0400
+
+    Added init_codes.
+
+commit 98709c0b335882373a2e66236c8cad7498c4d6ab
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Mon Apr 16 12:00:09 2018 -0400
+
+    Reorganization, start diagonal folder.
+
+commit c14621ae02b3c2aa4185deb95622cda6b9361561
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed Apr 11 21:25:01 2018 +0100
+
+    Spring cleaning.
+
+commit 9ac711410ca40ad7c8b62d92d0580652749a63ff
+Author: jimhalverson <j.halverson@northeastern.edu>
+Date:   Wed Apr 11 21:15:59 2018 +0100
+
+    Update README.md
+
+commit 68f80b4804807cb2633dcc2a5273e31bce7e91f6
+Author: jimhalverson <j.halverson@northeastern.edu>
+Date:   Wed Apr 11 21:09:31 2018 +0100
+
+    Update README.md
+
+commit 5c8e6e3e4d0dc2bfc63f069046de785835cb25cf
+Author: jimhalverson <j.halverson@northeastern.edu>
+Date:   Wed Apr 11 20:57:12 2018 +0100
+
+    Update README.md
+
+commit 8ac89841902f1b749ab7f9c486ecc46c82e76844
+Author: Jim Halverson <j.halverson@northeastern.edu>
+Date:   Wed Apr 11 20:18:33 2018 +0100
+
+    First commit.

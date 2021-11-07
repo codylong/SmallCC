@@ -1,0 +1,421 @@
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:26:36 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 3 columns and 0 nonzeros
+Model has 3 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 3 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective -1.0000000
+Found heuristic solution: objective -1.20000e+19
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: -1.2e+19 -1 
+No other solutions better than 0
+
+Model is unbounded
+Best objective -1.200000000000e+19, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:27:18 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 10 columns and 0 nonzeros
+Model has 10 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 10 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective -1.0000000
+Found heuristic solution: objective -4.00000e+19
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: -4e+19 -1 
+No other solutions better than 0
+
+Model is unbounded
+Best objective -4.000000000000e+19, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:27:29 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 10 columns and 0 nonzeros
+Model has 10 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 10 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective -1.0000000
+Presolve removed 0 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: -1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.000000000000e+00, best bound -1.000000000000e+00, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:27:47 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 10 columns and 0 nonzeros
+Model has 10 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 10 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 4.000000e+19
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 4e+19 
+
+Best objective 4.000000000000e+19, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:28:18 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 2 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 8.000000e+18
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 8e+18 
+
+Best objective 8.000000000000e+18, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:29:09 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 2 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 8.000000e+18
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 8e+18 
+
+Best objective 8.000000000000e+18, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:32:00 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 3 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [2e+00, 8e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [4e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 15.3110000
+Modified 2 Q diagonals
+Modified 2 Q diagonals
+Presolve time: 0.00s
+Presolved: 0 rows, 2 columns, 0 nonzeros
+Presolved model has 3 quadratic objective terms
+Variable types: 0 continuous, 2 integer (2 binary)
+
+Root relaxation: objective -1.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.0010000    5.00100  0.00%     -    0s
+
+Explored 0 nodes (2 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 5.001 15.311 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.001000000000e+00, best bound 5.001000000000e+00, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:32:44 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 2 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 8.000000e+18
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 8e+18 
+
+Best objective 8.000000000000e+18, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:35:02 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 2 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Modified 2 Q diagonals
+Presolve time: 0.00s
+Presolved: 1 rows, 2 columns, 2 nonzeros
+Variable types: 0 continuous, 2 integer (2 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:35:20 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 2 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Modified 2 Q diagonals
+Presolve time: 0.00s
+Presolved: 1 rows, 2 columns, 2 nonzeros
+Variable types: 0 continuous, 2 integer (2 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:35:38 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 2 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Modified 2 Q diagonals
+Presolve time: 0.00s
+Presolved: 1 rows, 2 columns, 2 nonzeros
+Variable types: 0 continuous, 2 integer (2 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:35:55 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 2 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Modified 2 Q diagonals
+Presolve time: 0.00s
+Presolved: 1 rows, 2 columns, 2 nonzeros
+Variable types: 0 continuous, 2 integer (2 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:36:22 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 10 columns and 0 nonzeros
+Model has 55 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 10 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [5e-09, 2e-07]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [1e-08, 4e-07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:36:59 2018
+
+Academic license - for non-commercial use only
+Freed default Gurobi environment
+
+Gurobi 8.0.0 (mac64, Python) logging started Mon Aug 13 16:37:51 2018
+
+Academic license - for non-commercial use only
+Optimize a model with 0 rows, 2 columns and 0 nonzeros
+Model has 2 quadratic objective terms
+Model has 1 quadratic constraint
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Modified 2 Q diagonals
+Presolve time: 0.00s
+Presolved: 1 rows, 2 columns, 2 nonzeros
+Variable types: 0 continuous, 2 integer (2 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+Freed default Gurobi environment

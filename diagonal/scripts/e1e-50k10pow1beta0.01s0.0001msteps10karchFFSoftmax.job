@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=e1e-50k10pow1beta0.01s0.0001msteps10karchFFSoftmax
+#SBATCH --output=e1e-50k10pow1beta0.01s0.0001msteps10karchFFSoftmax.out
+#SBATCH --error=e1e-50k10pow1beta0.01s0.0001msteps10karchFFSoftmax.err
+#SBATCH --exclusive
+#SBATCH --partition=fullnode
+#SBATCH -N 1
+#SBATCH --workdir=/home/codylong/diagonal/workdir
+cd /home/codylong/diagonal/
+mpiexec -n 1 python train_a3c_gym.py 32 --steps 20000000000 --env cc-v0 --outdir /scratch/codylong/diagonal/ --gamma 1 --eps 1e-50 --nmod 10 --sigma 0.0001 --beta 0.01 --eval-interval 2000000 --reward-d-pow 1 --arch FFSoftmax

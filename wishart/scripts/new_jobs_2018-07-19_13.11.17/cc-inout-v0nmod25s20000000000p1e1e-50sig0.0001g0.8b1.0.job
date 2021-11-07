@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=cc-inout-v0nmod25s20000000000p1e1e-50sig0.0001g0.8b1.0
+#SBATCH --output=cc-inout-v0nmod25s20000000000p1e1e-50sig0.0001g0.8b1.0.out
+#SBATCH --error=cc-inout-v0nmod25s20000000000p1e1e-50sig0.0001g0.8b1.0.err
+#SBATCH --exclusive
+#SBATCH --partition=ser-par-10g-5
+#SBATCH -N 1
+#SBATCH --workdir=/home/codylong/wishart/workdir
+cd /home/codylong/wishart/
+mpirun -prot -srun -n 1 python train_a3c_gym.py 32 --steps 20000000000 --eval-interval 2000000 --env cc-inout-v0 --outdir /gss_gpfs_scratch/codylong/wishart/inout --gamma 0.8 --eps 1e-50 --nmod 25 --sigma 0.0001 --beta 1.0 --reward-d-pow 1 --load /gss_gpfs_scratch/codylong/wishart/inout/20180709T203114.370147/52000224

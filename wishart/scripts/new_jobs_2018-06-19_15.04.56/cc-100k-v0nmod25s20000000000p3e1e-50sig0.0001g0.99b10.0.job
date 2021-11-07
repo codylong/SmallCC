@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=cc-100k-v0nmod25s20000000000p3e1e-50sig0.0001g0.99b10.0
+#SBATCH --output=cc-100k-v0nmod25s20000000000p3e1e-50sig0.0001g0.99b10.02.out
+#SBATCH --error=cc-100k-v0nmod25s20000000000p3e1e-50sig0.0001g0.99b10.02.err
+#SBATCH --exclusive
+#SBATCH --partition=ser-par-10g-5
+#SBATCH -N 1
+#SBATCH --workdir=/home/codylong/wishart/workdir
+cd /home/codylong/wishart/
+mpirun -prot -srun -n 1 python train_a3c_gym.py 32 --steps 20000000000 --eval-interval 2000000 --env cc-100k-v0 --outdir /gss_gpfs_scratch/codylong/wishart/old_origin_old_reward --gamma 0.99 --eps 1e-50 --nmod 25 --sigma 0.0001 --beta 10.0 --reward-d-pow 3 --origin ' -19749.0,21012.0,25317.0,26957.0,10851.0,36229.0,41422.0,-14066.0,18293.0,13303.0,-21095.0,14375.0,11762.0,38907.0,-3826.0,33027.0,-4038.0,7184.0,43742.0,17180.0,-27263.0,10414.0,-11274.0,-3555.0,5290.0'

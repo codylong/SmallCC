@@ -1,0 +1,1 @@
+This is the precision check, run it with nmod = 1 to show that the mpmath behavior is as expected.

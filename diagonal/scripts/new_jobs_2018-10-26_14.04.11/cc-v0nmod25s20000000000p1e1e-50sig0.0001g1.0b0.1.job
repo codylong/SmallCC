@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=cc-v0nmod25s20000000000p1e1e-50sig0.0001g1.0b0.1
+#SBATCH --output=cc-v0nmod25s20000000000p1e1e-50sig0.0001g1.0b0.1.out
+#SBATCH --error=cc-v0nmod25s20000000000p1e1e-50sig0.0001g1.0b0.1.err
+#SBATCH --exclusive
+#SBATCH --partition=ser-par-10g-5
+#SBATCH -N 1
+#SBATCH --workdir=/home/codylong/wishart/workdir
+cd /home/codylong/wishart/
+mpirun -prot -srun -n 1 python train_a3c_gym.py 32 --steps 20000000000 --eval-interval 2000000 --env cc-v0 --outdir /scratch/codylong/diagonal/ --gamma 1.0 --eps 1e-50 --nmod 25 --sigma 0.0001 --beta 0.1 --reward-d-pow 1 --load /home/codylong/wishart/diagccs/20181016T103228.987597/2484938

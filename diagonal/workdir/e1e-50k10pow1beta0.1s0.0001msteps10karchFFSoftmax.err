@@ -1,0 +1,134 @@
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+/home/codylong/.local/lib/python2.7/site-packages/chainerrl/distribution.py:46: RuntimeWarning: divide by zero encountered in log
+  xp.log(batch_probs) + xp.random.gumbel(size=batch_probs.shape),
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   /home/codylong/.local/lib/python2.7/site-packages/chainer/optimizer.py:695: RuntimeWarning: divide by zero encountered in double_scalars
+  rate = self.threshold / norm
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+                                                                                                                                                                                                         srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 1341805 ON c0559 CANCELLED AT 2018-10-17T10:03:27 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 1341805.0 ON c0559 CANCELLED AT 2018-10-17T10:03:27 DUE TO TIME LIMIT ***

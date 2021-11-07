@@ -1,0 +1,8 @@
+mkdir: cannot create directory `output/randcontroln25s1000000000p1e0.00000000000000000000000000000000000000000000000001sig0.0001box1mtypeload/': File exists
+mkdir: cannot create directory `output/randcontroln25s1000000000p1e0.00000000000000000000000000000000000000000000000001sig0.0001box1mtypeload/': File exists
+mkdir: cannot create directory `output/randcontroln25s1000000000p1e0.00000000000000000000000000000000000000000000000001sig0.0001box1mtypeload/': File exists
+mkdir: cannot create directory `output/randcontroln25s1000000000p1e0.00000000000000000000000000000000000000000000000001sig0.0001box1mtypeload/': File exists
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: *** STEP 14613946.0 CANCELLED AT 2018-06-08T10:53:38 DUE TO TIME LIMIT on compute-0-172 ***
+slurmstepd: *** JOB 14613946 CANCELLED AT 2018-06-08T10:53:38 DUE TO TIME LIMIT on compute-0-172 ***
+srun: forcing job termination

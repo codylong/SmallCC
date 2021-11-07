@@ -1,0 +1,5 @@
+import mpmath as mpm
+import numpy as np
+from matplotlib import pyplot as plt
+
+print [mpm.erfinv(2*mpm.rand()-1) for n in range(6)]

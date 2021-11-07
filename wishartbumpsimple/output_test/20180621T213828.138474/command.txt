@@ -1,0 +1,1 @@
+train_a3c_gym.py 4 --steps 20000 --eval-interval 100 --env cc-quickrun-v0 --outdir output_test --gamma 1 --eps 1e-50 --nmod 10 --sigma 1e-4 --beta 1 --reward-d-pow 1 --arch FFSoftmax

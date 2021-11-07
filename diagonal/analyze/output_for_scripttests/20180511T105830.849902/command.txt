@@ -1,0 +1,1 @@
+train_a3c_gym.py 32 --steps 20000000 --env cc-100k-v0 --outdir /home/jhhalverson/wishart/output --gamma .999999 --eps 1e-10 --nmod 30 --sigma 0.00110269785923

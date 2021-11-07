@@ -1,0 +1,17 @@
+(lp1
+(lp2
+ccopy_reg
+_reconstructor
+p3
+(cmpmath.ctx_mp_python
+mpf
+p4
+c__builtin__
+object
+p5
+NtRp6
+(I0
+S'45b0989ddd5e71631191d6259d9ed00a9db15f3de0d00215a21f0c56273857edc4bbb426c0138882da3a12758b7e60c4d7370054a4f7f098f7cd257ff74d83eb59c106b3a063463adb5abcd439271923dc36bfbL'
+I-799
+I667
+tbaa.
