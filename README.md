@@ -66,3 +66,9 @@ experiments, our physical input parameters are k, G, and eps.
 
 We will take g = A^T A where the entries of A are drawn from a Gaussian centered at zero with stdev sigma, so we can
 effectively replace G with sigma.
+
+## Tools 1: Reinforcement Learning
+
+We will use RL as a way to try to explore the space of CC's, using openAI gym and ChainerRL. Initial results are that RL 
+performs better than random walks and direct solution attempts (e.g. bounded-region minimization functions in mathematica),
+by a couple orders of magnitude.
